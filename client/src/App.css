@@ -1,0 +1,27 @@
+.board {
+  /* padding: 10px; */
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-flow: row wrap; */
+  justify-content: center;
+  /* width: 340px; */
+  align-items: center;
+}
+
+.square {
+  height: 111px;
+  width: 111px;
+  border-radius: 3px;
+  /* flex: 1,0,33%; */
+  margin-bottom: 1px;
+  /* min-height: 33.33vh; */
+  border: 1px solid lightgrey;
+}
+.disabled {
+  cursor: not-allowed !important;
+}
+
+.App-header {
+  color: white;
+}
+
